@@ -82,6 +82,19 @@ a {
     border: 2px solid var(--col-border);
 }
 
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    color: var(--col-hover);
+}
+
+.link :hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width:850px) {
     .navContainer {
         height: 5vh;
